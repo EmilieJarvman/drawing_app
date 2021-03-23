@@ -16,12 +16,14 @@ body {
 }
 
 canvas {
-	border: 2px solid steelblue;
+	border: 2px solid #275865;
+	border-radius: 12px 12px 0 0;
 }
 
 .toolbox {
-	background-color: steelblue;
-	border: 1px solid slateblue;
+	background-color: #275865;
+	border: 1px solid #11303b;
+	border-radius: 0 0 12px 12px;
 	display: flex;
 	width: 804px;
 	padding: 1rem;
@@ -31,6 +33,7 @@ canvas {
 .toolbox > * {
 	background-color: #fff;
 	border: none;
+	border-radius: 4px;
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
@@ -44,3 +47,11 @@ canvas {
 .toolbox > *:last-child {
 	margin-left: auto;
 }
+
+/* COLORS
+#5E7F89
+#275865
+#11303B
+#0A222A
+#09181F
+*/
